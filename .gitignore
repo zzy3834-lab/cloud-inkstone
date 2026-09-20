@@ -1,0 +1,32 @@
+# ===== 环境变量与密钥（绝不上传）=====
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+secrets.json
+
+# ===== 依赖目录 =====
+node_modules/
+venv/
+__pycache__/
+
+# ===== 本地数据库文件 =====
+*.sqlite
+*.sqlite3
+*.db
+*.db-journal
+
+# ===== 构建产物与日志 =====
+dist/
+build/
+*.log
+
+# ===== 系统垃圾文件 =====
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ===== WorkBuddy 系统文件夹（AI 助手工作数据，不属于作品）=====
+.workbuddy/
+WorkBuddy/
